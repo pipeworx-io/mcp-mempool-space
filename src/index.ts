@@ -51,7 +51,7 @@ const tools: McpToolExport['tools'] = [
   },
   {
     name: 'block_height',
-    description: 'Current chain tip block height.',
+    description: 'Return the current chain tip block height (latest mined block number) for mainnet, testnet, signet, or liquid.',
     inputSchema: { type: 'object', properties: { network: { type: 'string' } } },
   },
   {
@@ -68,7 +68,7 @@ const tools: McpToolExport['tools'] = [
   },
   {
     name: 'get_transaction',
-    description: 'Transaction detail.',
+    description: 'Fetch full transaction detail (inputs, outputs, fee, size, confirmation status) for a given txid on mainnet/testnet/signet/liquid.',
     inputSchema: {
       type: 'object',
       properties: { txid: { type: 'string' }, network: { type: 'string' } },
@@ -77,7 +77,7 @@ const tools: McpToolExport['tools'] = [
   },
   {
     name: 'get_tx_status',
-    description: 'Confirmation state.',
+    description: 'Return confirmation status (confirmed, block hash, block height) for a txid without fetching the full transaction body.',
     inputSchema: {
       type: 'object',
       properties: { txid: { type: 'string' }, network: { type: 'string' } },

@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-mempool-space",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "mempool.space MCP — Bitcoin block explorer + mempool/fee stats",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-9b604011c71d00335d66ad3e626afe9374e330bc04606f473d3f0124891aa552",
-    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
+    "sourceHash": "v1-7616f03a2960c908806527621759b3bb12026a346248de9c1d3369d836749de0",
+    "sourceCommit": "6182c4cfebddb94950e060b5d2fca18f18ad1aca"
   }
 }
